@@ -1,0 +1,25 @@
+# FastAPI and server
+fastapi>=0.115.0
+uvicorn>=0.27.0
+python-multipart>=0.0.20
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.18.0
+
+# Pydantic
+pydantic>=2.0.0
+
+# Statistical analysis (lightweight)
+scipy>=1.10.0
+
+# -----------------------------------------------------------
+# FULL FEATURE SET (install locally - too large for Vercel Lambda)
+# pip install statsforecast utilsforecast coreforecast statsmodels
+# pip install mlforecast scikit-learn lightgbm xgboost
+# pip install neuralforecast
+# pip install hierarchicalforecast datasetsforecast
+# -----------------------------------------------------------
