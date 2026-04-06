@@ -3,11 +3,6 @@ fastapi>=0.115.0
 uvicorn>=0.27.0
 python-multipart>=0.0.20
 
-# Nixtla core (lightweight - fits in Vercel Lambda 500MB)
-statsforecast>=1.7.0
-utilsforecast>=0.1.0
-coreforecast>=0.0.9
-
 # Data processing
 pandas>=2.0.0
 numpy>=1.24.0
@@ -15,14 +10,15 @@ numpy>=1.24.0
 # Visualization
 plotly>=5.18.0
 
-# Statistical analysis
-statsmodels>=0.14.0
-
 # Pydantic
 pydantic>=2.0.0
 
+# Statistical analysis (lightweight)
+scipy>=1.10.0
+
 # -----------------------------------------------------------
-# OPTIONAL DEPENDENCIES (install locally for full feature set)
+# FULL FEATURE SET (install locally - too large for Vercel Lambda)
+# pip install statsforecast utilsforecast coreforecast statsmodels
 # pip install mlforecast scikit-learn lightgbm xgboost
 # pip install neuralforecast
 # pip install hierarchicalforecast datasetsforecast
